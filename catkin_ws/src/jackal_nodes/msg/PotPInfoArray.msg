@@ -1,0 +1,1 @@
+PotPInfo[] potparray
