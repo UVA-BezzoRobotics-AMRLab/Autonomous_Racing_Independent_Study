@@ -1,0 +1,9 @@
+<launch>​
+<node name="firstnode" pkg="jackal_nodes" type="jackal_turn" />​
+<!--​
+<node name="firstnode" pkg="jackal_nodes" type="jackal_turn.py" />​
+-->​
+</launch>
+
+
+
