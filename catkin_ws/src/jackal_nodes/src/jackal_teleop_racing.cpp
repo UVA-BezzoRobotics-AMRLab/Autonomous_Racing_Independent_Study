@@ -42,7 +42,7 @@ int main(int argc, char **argv)
   ros::Subscriber keysub = nh.subscribe("/keyboard/keydown", 10, keyCallback);
   ros::Rate loop_rate(10);
 	int count_file = 0;
-	//ofstream MyFile("track_points_3.txt");
+	//ofstream MyFile("track_points_4.txt");
 	geometry_msgs::Twist vel;
   vel.linear.x = 0;//linear velocity(m/s)
   vel.angular.z = 0;//angular velocity(rad/s)
